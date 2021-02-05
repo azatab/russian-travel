@@ -10,25 +10,21 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
     margin-bottom: 25px;
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .place__paragraph {
-    max-width: 370px;
-    font-size: 16px;
-    margin-bottom: 25px;
+    margin: 0 20px 25px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .place__paragraph {
-    max-width: 288px;
-    font-size: 16px;
-    margin-bottom: 25px;
+    margin: 0 16px 25px;
   }
 }

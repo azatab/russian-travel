@@ -1,9 +1,10 @@
 .page {
   background-color: #2A2C2F;
-  /*background: rgba(42, 44, 47, 1);*/
   color: #fff;
-  margin: 0 auto;
   max-width: 1280px;
+  /*max-width: 100vw;*/
+  min-width: 320px;
+  margin: 0 auto;
   box-sizing: border-box;
   font-family: 'Inter', Arial, serif;
   -moz-osx-font-smoothing: grayscale;
@@ -12,31 +13,31 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
   /*align-items: center;*/
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .page {
-    max-width:1024px;
+    max-width: 1024px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .page {
-    max-width:768px;
+    max-width: 768px;
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .page {
-    max-width:425px;
+    max-width: 425px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .page {
-    max-width:320px;
+    max-width: 320px;
   }
 }

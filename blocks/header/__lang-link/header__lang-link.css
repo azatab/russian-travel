@@ -13,15 +13,8 @@
   margin-right: 0;
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .header__logo {
-    font-size: 18px;
-    line-height: 1.11;
-  }
-}
-
-@media (max-width: 320px) {
-  .header {
     font-size: 18px;
     line-height: 1.11;
   }

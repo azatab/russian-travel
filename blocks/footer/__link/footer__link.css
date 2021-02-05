@@ -7,17 +7,6 @@
   margin-right: 0;
 }
 
-@media (max-width: 320px) {
-  .footer__link {
-    display: block;
-    margin-bottom: 32px;
-  }
-
-  .footer__link:last-child {
-    margin-bottom: 0;
-  }
-}
-
 @media (max-width: 425px) {
   .footer__link {
     display: block;
