@@ -23,6 +23,15 @@
   }
 }
 
+@media screen and (max-width: 760px) {
+  .place {
+    grid-template-columns: minmax(426px, 760px);
+    gap: 32px;
+    margin-bottom: 50px;
+    justify-items: center;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .place {
     grid-template-columns: minmax(320px, 425px);

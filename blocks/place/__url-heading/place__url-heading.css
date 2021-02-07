@@ -10,12 +10,12 @@
 
 @media (max-width: 425px) {
   .place__url-heading {
-    width: 370px;
+    max-width: 370px;
   }
 }
 
 @media (max-width: 320px) {
   .place__url-heading {
-    width: 288px;
+    max-width: 288px;
   }
 }

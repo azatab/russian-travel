@@ -7,7 +7,7 @@
   margin-right: 0;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 740px) {
   .footer__link {
     display: block;
     margin-bottom: 32px;

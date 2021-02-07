@@ -5,7 +5,7 @@
   margin: 0 48px;
   background-image: url(../../images/cover__background.jpg);
   background-size: cover;
-  
+  display: flex;
 }
 
 @media (max-width: 1024px) {

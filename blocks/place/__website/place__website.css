@@ -3,6 +3,12 @@
   justify-self: start;
 }
 
+@media screen and (max-width: 760px) {
+  .place__website {
+    margin-left: 24px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .place__website {
     margin-left: 20px;
