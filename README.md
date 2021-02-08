@@ -6,7 +6,7 @@
 
 * адаптивная верстка;
 * гриды;
-* ~~calc~~.
+* calc.
 
 Адрес: https://azatab.github.io/russian-travel/
 

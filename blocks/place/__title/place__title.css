@@ -6,6 +6,12 @@
   font-weight: 900;
 }
 
+@media screen and (max-width: 900px) {
+  .place__title {
+    font-size: 60px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
